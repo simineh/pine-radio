@@ -70,6 +70,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="IHardwareConfiguration.cs" />
+    <Compile Include="IRadio.cs" />
+    <Compile Include="IRadioConfiguration.cs" />
+    <Compile Include="IRadioFactory.cs" />
+    <Compile Include="AudioWizardStepStep.cs" />
+    <Compile Include="RadioStation.cs" />
+    <Compile Include="RadioWizardStep.cs" />
     <Compile Include="Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
